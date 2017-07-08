@@ -1,0 +1,9 @@
+applications:
+- name: msbuilderdemoGA
+  path: ./target/msbuilderdemoGA.zip
+  memory: 512M
+  timeout: 180
+  instances: 1
+  buildpack: liberty-for-java
+  host: msbuilderdemoGA
+  domain: mybluemix.net
